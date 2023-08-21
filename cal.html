@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+        <center>
+            <h1>CALCULATOR</h1>
+            <table id="calcu" >
+             <tr>
+                <td colspan="4"><input id="txt" type="text" placeholder="0"></td>
+                
+             </tr>
+        
+             <tr>
+                <td><input id="btn" type="button" value="("></td>
+                <td><input id="btn" type="button" value=")"></td>
+                <td><input id="btn" type="button" onclick="allClear" value="c"></td>
+                <td><input id="btn" type="button" value="%"></td>
+             </tr>
+        
+             <tr>
+                <td><input id="btn" type="button" onclick="display('1')" value="1"></td>
+                <td><input id="btn" type="button" onclick="display('2')" value="2"></td>
+                <td><input id="btn" type="button" onclick="display('3')" value="3"></td>
+                <td><input id="btn" type="button" value="x"></td>
+             </tr>
+             <tr>
+                <td><input id="btn" type="button" onclick="disu('4')" value="4"></td>
+                <td><input id="btn" type="button" onclick="disu('5')" value="5"></td>
+                <td><input id="btn" type="button" value="6"></td>
+                <td><input id="btn" type="button" value="-"></td>
+             </tr>
+             
+             <tr>
+                <td><input id="btn" type="button" value="7"></td>
+                <td><input id="btn" type="button" value="8"></td>
+                <td><input id="btn" type="button" value="9"></td>
+                <td><input id="btn" type="button" value="+"></td>
+             </tr>
+             
+             <tr>
+                <td><input id="btn" type="button" value="."></td>
+                <td><input id="btn" type="button" value="0"></td>
+                <td><input id="btn" type="button" value="exp"></td>
+                <td><input id="btn-eql" type="button" value="="></td>
+             </tr>
+            </table>
+        </center>
+</body>
+<!-- <script src="./calcu.js"></script> -->
+<script src="./calcu.js"></script>
+</html>
+
